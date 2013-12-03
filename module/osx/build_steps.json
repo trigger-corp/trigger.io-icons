@@ -1,0 +1,10 @@
+[
+	{
+		"do": {
+			"copy_file_from_src": {
+				"filename": "{{modules.icons.config.osx.icns}}",
+				"dest": "Contents/Resources/icon.icns"
+			}
+		}
+	}
+]

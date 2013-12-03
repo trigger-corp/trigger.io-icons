@@ -1,0 +1,8 @@
+{
+    "description": "Specify icons to be used to represent the application.\n\nThe icons module allows you to set the icons that will be used to represent your app in menus, launch screens and app stores.", 
+    "name": "icons", 
+    "version": "2.1",
+    "platform_version": "v2.0.0",
+    "min_platform_version": "v2.0.1",
+    "changes": "* Added new iOS 7 icon sizes."
+}

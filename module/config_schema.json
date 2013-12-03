@@ -1,0 +1,173 @@
+{
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"android": {
+			"required": false,
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"36": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
+				},
+				"48": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
+				},
+				"72": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
+				}
+			}
+		},
+		"chrome": {
+			"required": false,
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"16": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
+				},
+				"48": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
+				},
+				"128": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
+				}
+			}
+		},
+		"firefox": {
+			"required": false,
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"32": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
+				},
+				"64": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
+				}
+			}
+		},
+		"ie": {
+			"required": false,
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"16": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
+				}
+			}
+		},
+		"ios": {
+			"required": false,
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"57": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true,
+					"description": "Non-retina iPhone/iPod devices running iOS<7."
+				},
+				"72": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true,
+					"description": "Non-retina iPad devices running iOS<7."
+				},
+				"76": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true,
+					"description": "Retina iPad devices running iOS7."
+				},
+				"114": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true,
+					"description": "Retina iPhone/iPod devices running iOS<7."
+				},
+				"120": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true,
+					"description": "Retina iPhone/iPod devices running iOS7."
+				},
+				"144": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true,
+					"description": "Retina iPad devices running iOS<7."
+				},
+				"152": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true,
+					"description": "Retina iPad devices running iOS7."
+				},
+				"512": {
+					"required": false,
+					"type": "string",
+					"_filepicker": true,
+					"description": "Used as the icon for your IPA, which is what will be shown in iTunes. Not used when the app is distributed through the Apple App Store."
+				},
+				"prerendered": {
+					"required": false,
+					"type": "boolean",
+					"description": "If set then icons will not have a glossy effect applied by iOS, only applies to iOS versions lower than 7."
+				}
+			}
+		},
+		"osx": {
+			"required": false,
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"icns": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
+				}
+			}
+		},
+		"safari": {
+			"required": false,
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"32": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
+				},
+				"48": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
+				},
+				"64": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
+				}
+			}
+		}
+	}
+}
