@@ -21,6 +21,16 @@
 					"required": true,
 					"type": "string",
 					"_filepicker": true
+				},
+				"96": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
+				},
+				"144": {
+					"required": true,
+					"type": "string",
+					"_filepicker": true
 				}
 			}
 		},

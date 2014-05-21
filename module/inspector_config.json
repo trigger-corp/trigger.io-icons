@@ -1,40 +1,41 @@
 {
 	"modules": {
-		"icons": {
-			"version": "2.0",
-			"config": {
-				"chrome": {
-					"128": "fixtures/icons/icon128.png",
-					"48": "fixtures/icons/icon48.png",
-					"16": "fixtures/icons/icon16.png"
-				},
-				"firefox": {
-					"32": "fixtures/icons/icon32.png",
-					"64": "fixtures/icons/icon64.png"
-				},
-				"safari": {
-					"32": "fixtures/icons/icon32.png",
-					"64": "fixtures/icons/icon64.png",
-					"48": "fixtures/icons/icon48.png"
-				},
-				"ie": {
-					"16": "fixtures/icons/icon16.ico"
-				},
-				"android": {
-					"36": "fixtures/icons/icon-36.png",
-					"48": "fixtures/icons/icon-48.png",
-					"72": "fixtures/icons/icon-72.png"
-				},
-				"ios": {
-					"57": "fixtures/icons/57.png",
-					"72": "fixtures/icons/72.png",
-					"76": "fixtures/icons/76.png",
-					"114": "fixtures/icons/114.png",
-					"120": "fixtures/icons/120.png",
-					"144": "fixtures/icons/144.png",
-					"152": "fixtures/icons/152.png",
-					"prerendered": true
-				}
+	},
+	"this_module": {
+		"config": {
+			"chrome": {
+				"16": "fixtures/icons/icon16.png",
+				"48": "fixtures/icons/icon48.png",
+				"128": "fixtures/icons/icon128.png"
+			},
+			"firefox": {
+				"32": "fixtures/icons/icon32.png",
+				"64": "fixtures/icons/icon64.png"
+			},
+			"safari": {
+				"32": "fixtures/icons/icon32.png",
+				"48": "fixtures/icons/icon48.png",
+				"64": "fixtures/icons/icon64.png"
+			},
+			"ie": {
+				"16": "fixtures/icons/icon16.ico"
+			},
+			"android": {
+				"36": "fixtures/icons/icon-36.png",
+				"48": "fixtures/icons/icon-48.png",
+				"72": "fixtures/icons/icon-72.png",
+				"96": "fixtures/icons/icon-96.png",
+				"144": "fixtures/icons/icon-144.png"
+			},
+			"ios": {
+				"57": "fixtures/icons/57.png",
+				"72": "fixtures/icons/72.png",
+				"76": "fixtures/icons/76.png",
+				"114": "fixtures/icons/114.png",
+				"120": "fixtures/icons/120.png",
+				"144": "fixtures/icons/144.png",
+				"152": "fixtures/icons/152.png",
+				"prerendered": true
 			}
 		}
 	}

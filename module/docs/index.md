@@ -18,13 +18,13 @@ may not be submittable otherwise.
 
 ###Android
 
-36, 48, 72
+36, 48, 72, 96, 144
 : 	Paths to various icons used to represent your app (all required), relative to your `src` directory.
 	The numbers represent the height/width of the icon in pixels.
 
 ###iOS
 
-57, 72, 114, 144
+57, 72, 76, 114, 120, 144, 152
 : 	Paths to various icons used to represent your app on an iOS device (all required), relative to your `src` directory.
 	The numbers represent the height/width of the icon in pixels.
 
