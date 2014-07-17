@@ -34,57 +34,6 @@
 				}
 			}
 		},
-		"chrome": {
-			"required": false,
-			"type": "object",
-			"additionalProperties": false,
-			"properties": {
-				"16": {
-					"required": true,
-					"type": "string",
-					"_filepicker": true
-				},
-				"48": {
-					"required": true,
-					"type": "string",
-					"_filepicker": true
-				},
-				"128": {
-					"required": true,
-					"type": "string",
-					"_filepicker": true
-				}
-			}
-		},
-		"firefox": {
-			"required": false,
-			"type": "object",
-			"additionalProperties": false,
-			"properties": {
-				"32": {
-					"required": true,
-					"type": "string",
-					"_filepicker": true
-				},
-				"64": {
-					"required": true,
-					"type": "string",
-					"_filepicker": true
-				}
-			}
-		},
-		"ie": {
-			"required": false,
-			"type": "object",
-			"additionalProperties": false,
-			"properties": {
-				"16": {
-					"required": true,
-					"type": "string",
-					"_filepicker": true
-				}
-			}
-		},
 		"ios": {
 			"required": false,
 			"type": "object",
@@ -144,40 +93,5 @@
 					"description": "If set then icons will not have a glossy effect applied by iOS, only applies to iOS versions lower than 7."
 				}
 			}
-		},
-		"osx": {
-			"required": false,
-			"type": "object",
-			"additionalProperties": false,
-			"properties": {
-				"icns": {
-					"required": true,
-					"type": "string",
-					"_filepicker": true
-				}
-			}
-		},
-		"safari": {
-			"required": false,
-			"type": "object",
-			"additionalProperties": false,
-			"properties": {
-				"32": {
-					"required": true,
-					"type": "string",
-					"_filepicker": true
-				},
-				"48": {
-					"required": true,
-					"type": "string",
-					"_filepicker": true
-				},
-				"64": {
-					"required": true,
-					"type": "string",
-					"_filepicker": true
-				}
-			}
 		}
-	}
 }
