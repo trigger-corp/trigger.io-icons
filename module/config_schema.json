@@ -43,49 +43,49 @@
 					"required": true,
 					"type": "string",
 					"_filepicker": true,
-					"description": "Non-retina iPhone/iPod devices running iOS<7."
+					"description": "Non-retina iPhone/iPod devices running iOS7 or higher."
 				},
 				"72": {
 					"required": true,
 					"type": "string",
 					"_filepicker": true,
-					"description": "Non-retina iPad devices running iOS<7."
+					"description": "Non-retina iPad devices running iOS6."
 				},
 				"76": {
 					"required": true,
 					"type": "string",
 					"_filepicker": true,
-					"description": "Retina iPad devices running iOS7."
+					"description": "Retina iPad devices running iOS7 or higher."
 				},
 				"114": {
 					"required": true,
 					"type": "string",
 					"_filepicker": true,
-					"description": "Retina iPhone/iPod devices running iOS<7."
+					"description": "Retina iPhone/iPod devices running iOS6."
 				},
 				"120": {
 					"required": true,
 					"type": "string",
 					"_filepicker": true,
-					"description": "Retina iPhone/iPod devices running iOS7."
+					"description": "Retina iPhone/iPod devices running iOS7 or higher."
 				},
 				"144": {
 					"required": true,
 					"type": "string",
 					"_filepicker": true,
-					"description": "Retina iPad devices running iOS<7."
+					"description": "Retina iPad devices running iOS6."
 				},
 				"152": {
 					"required": true,
 					"type": "string",
 					"_filepicker": true,
-					"description": "Retina iPad devices running iOS7."
+					"description": "Retina iPad devices running iOS7 or higher."
 				},
-				"512": {
-					"required": false,
+				"180": {
+					"required": true,
 					"type": "string",
 					"_filepicker": true,
-					"description": "Used as the icon for your IPA, which is what will be shown in iTunes. Not used when the app is distributed through the Apple App Store."
+					"description": "iPhone 6 Plus."
 				},
 				"prerendered": {
 					"required": false,

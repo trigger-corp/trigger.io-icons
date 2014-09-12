@@ -24,12 +24,9 @@ may not be submittable otherwise.
 
 ###iOS
 
-57, 72, 76, 114, 120, 144, 152
+57, 72, 76, 114, 120, 144, 152, 180
 : 	Paths to various icons used to represent your app on an iOS device (all required), relative to your `src` directory.
 	The numbers represent the height/width of the icon in pixels.
-
-512
-:	Path to an icon used to represent your app in iTunes.
 
 Prerendered
 : 	Setting this to true will stop iOS from applying the gloss effect to your icons.

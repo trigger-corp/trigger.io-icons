@@ -50,6 +50,14 @@
 	{
 		"do": {
 			"copy_file_from_src": {
+				"filename": "{{modules.icons.config.ios.180}}",
+				"dest": "180.png"
+			}
+		}
+	},
+	{
+		"do": {
+			"copy_file_from_src": {
 				"filename": "{{modules.icons.config.ios.76}}",
 				"dest": "76.png"
 			}

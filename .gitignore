@@ -3,6 +3,7 @@ identity.json
 inspector/an-inspector.*
 inspector/ios-inspector.*
 .hash
+inspector/
 inspector/ios-inspector/ForgeInspector
 inspector/ios-inspector/ForgeCore.framework
 inspector/ios-inspector/ForgeInspector.xcodeproj
