@@ -1,8 +1,8 @@
 {
     "changes": "* Support icons for gradle builds", 
     "description": "Specify icons to be used to represent the application.\n\nThe icons module allows you to set the icons that will be used to represent your app in menus, launch screens and app stores.", 
-    "min_platform_version": "v2.2.16", 
+    "min_platform_version": "v2.2.17", 
     "namespace": "icons", 
-    "platform_version": "v2.2.16", 
+    "platform_version": "v2.2.17", 
     "version": "2.5"
 }
