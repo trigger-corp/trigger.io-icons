@@ -8,7 +8,8 @@
 				"48": "fixtures/icons/icon-48.png",
 				"72": "fixtures/icons/icon-72.png",
 				"96": "fixtures/icons/icon-96.png",
-				"144": "fixtures/icons/icon-144.png"
+				"144": "fixtures/icons/icon-144.png",
+				"192": "fixtures/icons/icon-192.png"
 			},
 			"ios": {
 				"57": "fixtures/icons/57.png",
