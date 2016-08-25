@@ -18,15 +18,15 @@ may not be submittable otherwise.
 
 ###Android
 
-36, 48, 72, 96, 144
-: 	Paths to various icons used to represent your app (all required), relative to your `src` directory.
+36, 48, 72, 96, 144, 192
+:	Paths to various icons used to represent your app (all required), relative to your `src` directory.
 	The numbers represent the height/width of the icon in pixels.
 
 ###iOS
 
-57, 72, 76, 114, 120, 144, 152, 180
-: 	Paths to various icons used to represent your app on an iOS device (all required), relative to your `src` directory.
+57, 72, 76, 114, 120, 144, 152, 167, 180
+:	Paths to various icons used to represent your app on an iOS device (all required), relative to your `src` directory.
 	The numbers represent the height/width of the icon in pixels.
 
 Prerendered
-: 	Setting this to true will stop iOS from applying the gloss effect to your icons.
+:	Setting this to true will stop iOS from applying the gloss effect to your icons.
