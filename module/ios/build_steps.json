@@ -65,6 +65,14 @@
 	},
 	{
 		"do": {
+			"copy_file_from_src": {
+				"filename": "{{modules.icons.config.ios.167}}",
+				"dest": "AppIcon83.5x83.5@2x~ipad.png"
+			}
+		}
+	},
+	{
+		"do": {
 			"icons_handle_prerendered": {}
 		}
 	}
