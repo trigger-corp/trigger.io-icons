@@ -1,79 +1,79 @@
 [
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.ios.57}}",
-				"dest": "AppIcon57x57.png"
-			}
-		}
-	},
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.ios.114}}",
-				"dest": "AppIcon57x57@2x.png"
-			}
-		}
-	},
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.ios.120}}",
-				"dest": "AppIcon60x60@2x.png"
-			}
-		}
-	},
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.ios.152}}",
-				"dest": "AppIcon76x76@2x~ipad.png"
-			}
-		}
-	},
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.ios.180}}",
-				"dest": "AppIcon60x60@3x.png"
-			}
-		}
-	},
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.ios.72}}",
-				"dest": "AppIcon72x72~ipad.png"
-			}
-		}
-	},
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.ios.76}}",
-				"dest": "AppIcon76x76~ipad.png"
-			}
-		}
-	},
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.ios.144}}",
-				"dest": "AppIcon72x72@2x~ipad.png"
-			}
-		}
-	},
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.ios.167}}",
-				"dest": "AppIcon83.5x83.5@2x~ipad.png"
-			}
-		}
-	},
-	{
-		"do": {
-			"icons_handle_prerendered": {}
-		}
-	}
+    {
+        "do": {
+            "copy_file_from_src": {
+                "filename": "{{modules.icons.config.ios.57}}",
+                "dest": "AppIcon57x57.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_src": {
+                "filename": "{{modules.icons.config.ios.114}}",
+                "dest": "AppIcon57x57@2x.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_src": {
+                "filename": "{{modules.icons.config.ios.120}}",
+                "dest": "AppIcon60x60@2x.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_src": {
+                "filename": "{{modules.icons.config.ios.152}}",
+                "dest": "AppIcon76x76@2x~ipad.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_src": {
+                "filename": "{{modules.icons.config.ios.180}}",
+                "dest": "AppIcon60x60@3x.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_src": {
+                "filename": "{{modules.icons.config.ios.72}}",
+                "dest": "AppIcon72x72~ipad.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_src": {
+                "filename": "{{modules.icons.config.ios.76}}",
+                "dest": "AppIcon76x76~ipad.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_src": {
+                "filename": "{{modules.icons.config.ios.144}}",
+                "dest": "AppIcon72x72@2x~ipad.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_src": {
+                "filename": "{{modules.icons.config.ios.167}}",
+                "dest": "AppIcon83.5x83.5@2x~ipad.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "icons_handle_prerendered": {}
+        }
+    }
 ]
