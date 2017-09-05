@@ -1,50 +1,50 @@
 [
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.android.36}}",
-				"dest": "res/drawable-ldpi-v4/icon.png"
-			}
-		}
-	},
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.android.48}}",
-				"dest": "res/drawable-mdpi-v4/icon.png"
-			}
-		}
-	},
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.android.72}}",
-				"dest": "res/drawable-hdpi-v4/icon.png"
-			}
-		}
-	},
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.android.96}}",
-				"dest": "res/drawable-xhdpi-v4/icon.png"
-			}
-		}
-	},
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.android.144}}",
-				"dest": "res/drawable-xxhdpi-v4/icon.png"
-			}
-		}
-	},
-	{
-		"do": {
-			"copy_file_from_src": {
-				"filename": "{{modules.icons.config.android.192}}",
-				"dest": "res/drawable-xxxhdpi-v4/icon.png"
-			}
-		}
-	}
+    {
+        "do": {
+            "copy_file_from_assets": {
+                "filename": "{{modules.icons.config.android.36}}",
+                "dest": "res/drawable-ldpi-v4/icon.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_assets": {
+                "filename": "{{modules.icons.config.android.48}}",
+                "dest": "res/drawable-mdpi-v4/icon.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_assets": {
+                "filename": "{{modules.icons.config.android.72}}",
+                "dest": "res/drawable-hdpi-v4/icon.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_assets": {
+                "filename": "{{modules.icons.config.android.96}}",
+                "dest": "res/drawable-xhdpi-v4/icon.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_assets": {
+                "filename": "{{modules.icons.config.android.144}}",
+                "dest": "res/drawable-xxhdpi-v4/icon.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_assets": {
+                "filename": "{{modules.icons.config.android.192}}",
+                "dest": "res/drawable-xxxhdpi-v4/icon.png"
+            }
+        }
+    }
 ]
