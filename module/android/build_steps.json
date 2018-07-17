@@ -2,16 +2,8 @@
     {
         "do": {
             "copy_file_from_assets": {
-                "filename": "{{modules.icons.config.android.36}}",
-                "dest": "res/drawable-ldpi-v4/icon.png"
-            }
-        }
-    },
-    {
-        "do": {
-            "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.48}}",
-                "dest": "res/drawable-mdpi-v4/icon.png"
+                "dest": "res/mipmap-mdpi/ic_launcher.png"
             }
         }
     },
@@ -19,7 +11,7 @@
         "do": {
             "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.72}}",
-                "dest": "res/drawable-hdpi-v4/icon.png"
+                "dest": "res/mipmap-hdpi/ic_launcher.png"
             }
         }
     },
@@ -27,7 +19,7 @@
         "do": {
             "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.96}}",
-                "dest": "res/drawable-xhdpi-v4/icon.png"
+                "dest": "res/mipmap-xhdpi/ic_launcher.png"
             }
         }
     },
@@ -35,7 +27,7 @@
         "do": {
             "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.144}}",
-                "dest": "res/drawable-xxhdpi-v4/icon.png"
+                "dest": "res/mipmap-xxhdpi/ic_launcher.png"
             }
         }
     },
@@ -43,7 +35,58 @@
         "do": {
             "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.192}}",
-                "dest": "res/drawable-xxxhdpi-v4/icon.png"
+                "dest": "res/mipmap-xxxhdpi/ic_launcher.png"
+            }
+        }
+    },
+
+    {
+        "do": {
+            "copy_file_from_assets": {
+                "filename": "{{modules.icons.config.android.adaptive.108}}",
+                "dest": "res/mipmap-mdpi/ic_launcher_foreground.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_assets": {
+                "filename": "{{modules.icons.config.android.adaptive.162}}",
+                "dest": "res/mipmap-hdpi/ic_launcher_foreground.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_assets": {
+                "filename": "{{modules.icons.config.android.adaptive.216}}",
+                "dest": "res/mipmap-xhdpi/ic_launcher_foreground.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_assets": {
+                "filename": "{{modules.icons.config.android.adaptive.324}}",
+                "dest": "res/mipmap-xxhdpi/ic_launcher_foreground.png"
+            }
+        }
+    },
+    {
+        "do": {
+            "copy_file_from_assets": {
+                "filename": "{{modules.icons.config.android.adaptive.432}}",
+                "dest": "res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+            }
+        }
+    },
+
+    {
+        "do": {
+            "set_text_for_xml_element": {
+                "file": "res/values/ic_launcher_background.xml",
+                "text": "{{modules.icons.config.android.adaptive.background-color}}",
+                "to": "color"
             }
         }
     }

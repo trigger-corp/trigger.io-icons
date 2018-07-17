@@ -1,8 +1,8 @@
 {
-    "changes": "* Add support for iOS 11",
+    "changes": "* Only use this version with the v2.7 betas\n* Add support for Android adaptive icons.",
     "description": "Specify icons to be used to represent the application.\n\nThe icons module allows you to set the icons that will be used to represent your app in menus, launch screens and app stores.",
-    "min_platform_version": "v2.6.1",
+    "min_platform_version": "v2.7.1beta-1",
     "namespace": "icons",
-    "platform_version": "v2.6.1",
-    "version": "2.8"
+    "platform_version": "v2.7.1beta-1",
+    "version": "2.9"
 }

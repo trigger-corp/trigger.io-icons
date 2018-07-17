@@ -7,37 +7,83 @@
             "type": "object",
             "additionalProperties": false,
             "properties": {
-                "36": {
-                    "required": true,
-                    "type": "string",
-                    "_filepicker": true
-                },
                 "48": {
                     "required": true,
                     "type": "string",
-                    "_filepicker": true
+                    "_filepicker": true,
+                    "description": "Icon for mdpi image density"
                 },
                 "72": {
                     "required": true,
                     "type": "string",
-                    "_filepicker": true
+                    "_filepicker": true,
+                    "description": "Icon for hdpi image density"
                 },
                 "96": {
                     "required": true,
                     "type": "string",
-                    "_filepicker": true
+                    "_filepicker": true,
+                    "description": "Icon for xhdpi image density"
                 },
                 "144": {
                     "required": true,
                     "type": "string",
-                    "_filepicker": true
+                    "_filepicker": true,
+                    "description": "Icon for xxhdpi image density"
                 },
                 "192": {
                     "required": true,
                     "type": "string",
-                    "_filepicker": true
+                    "_filepicker": true,
+                    "description": "Icon for xxxhdpi image density"
+                },
+                "adaptive": {
+                    "required": false,
+                    "type": "object",
+                    "additionalProperties": false,
+                    "description": "Android 8.0 (API level 26) introduces adaptive launcher icons, which can display a variety of shapes across different device models. <a href='https://trigger.io/modules/icons/current/docs/index.html'>More information.</a>",
+                    "properties": {
+                        "background-color": {
+                            "_order": 1,
+                            "type": "string",
+                            "required": true,
+                            "description": "The color to be shown behind the icon - e.g. `#303045`",
+                            "pattern": "^#[\\da-fA-F]{6}$"
+                        },
+                        "108": {
+                            "required": true,
+                            "type": "string",
+                            "_filepicker": true,
+                            "description": "Adaptive icon for mdpi image density"
+                        },
+                        "162": {
+                            "required": true,
+                            "type": "string",
+                            "_filepicker": true,
+                            "description": "Adaptive icon for hdpi image density"
+                        },
+                        "216": {
+                            "required": true,
+                            "type": "string",
+                            "_filepicker": true,
+                            "description": "Adaptive icon for xhdpi image density"
+                        },
+                        "324": {
+                            "required": true,
+                            "type": "string",
+                            "_filepicker": true,
+                            "description": "Adaptive icon for xxhdpi image density"
+                        },
+                        "432": {
+                            "required": true,
+                            "type": "string",
+                            "_filepicker": true,
+                            "description": "Adaptive icon for xxxhdpi image density"
+                        }
+                    }
                 }
             }
+
         },
         "ios": {
             "required": false,
