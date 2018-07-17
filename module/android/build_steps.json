@@ -3,7 +3,7 @@
         "do": {
             "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.48}}",
-                "dest": "res/mipmap-mdpi/ic_launcher.png"
+                "dest": "res/mipmap-mdpi-v4/ic_launcher.png"
             }
         }
     },
@@ -11,7 +11,7 @@
         "do": {
             "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.72}}",
-                "dest": "res/mipmap-hdpi/ic_launcher.png"
+                "dest": "res/mipmap-hdpi-v4/ic_launcher.png"
             }
         }
     },
@@ -19,7 +19,7 @@
         "do": {
             "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.96}}",
-                "dest": "res/mipmap-xhdpi/ic_launcher.png"
+                "dest": "res/mipmap-xhdpi-v4/ic_launcher.png"
             }
         }
     },
@@ -27,7 +27,7 @@
         "do": {
             "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.144}}",
-                "dest": "res/mipmap-xxhdpi/ic_launcher.png"
+                "dest": "res/mipmap-xxhdpi-v4/ic_launcher.png"
             }
         }
     },
@@ -35,7 +35,7 @@
         "do": {
             "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.192}}",
-                "dest": "res/mipmap-xxxhdpi/ic_launcher.png"
+                "dest": "res/mipmap-xxxhdpi-v4/ic_launcher.png"
             }
         }
     },
@@ -44,7 +44,7 @@
         "do": {
             "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.adaptive.108}}",
-                "dest": "res/mipmap-mdpi/ic_launcher_foreground.png"
+                "dest": "res/mipmap-mdpi-v4/ic_launcher_foreground.png"
             }
         }
     },
@@ -52,7 +52,7 @@
         "do": {
             "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.adaptive.162}}",
-                "dest": "res/mipmap-hdpi/ic_launcher_foreground.png"
+                "dest": "res/mipmap-hdpi-v4/ic_launcher_foreground.png"
             }
         }
     },
@@ -60,7 +60,7 @@
         "do": {
             "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.adaptive.216}}",
-                "dest": "res/mipmap-xhdpi/ic_launcher_foreground.png"
+                "dest": "res/mipmap-xhdpi-v4/ic_launcher_foreground.png"
             }
         }
     },
@@ -68,7 +68,7 @@
         "do": {
             "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.adaptive.324}}",
-                "dest": "res/mipmap-xxhdpi/ic_launcher_foreground.png"
+                "dest": "res/mipmap-xxhdpi-v4/ic_launcher_foreground.png"
             }
         }
     },
@@ -76,7 +76,7 @@
         "do": {
             "copy_file_from_assets": {
                 "filename": "{{modules.icons.config.android.adaptive.432}}",
-                "dest": "res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+                "dest": "res/mipmap-xxxhdpi-v4/ic_launcher_foreground.png"
             }
         }
     },
